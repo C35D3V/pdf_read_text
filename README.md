@@ -26,16 +26,6 @@ En sistemas basados en Ubuntu, instala Tesseract con:
 sudo apt update
 sudo apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
 ```
-## 📂 Estructura del Proyecto.
-
-pdf_read_text/
-├── main.py            # Script principal
-├── file_processor.py  # Manejo de PDFs, imágenes y OCR
-├── utils.py           # Funciones auxiliares (guardar texto, manejo de errores)
-├── config.py          # Configuración global del proyecto
-├── requirements.txt   # Lista de dependencias de Python
-└── README.md          # Documentación del proyecto
-
 ## ⚙️ Configuración.
 
 El archivo config.py contiene parámetros globales que puedes ajustar:
